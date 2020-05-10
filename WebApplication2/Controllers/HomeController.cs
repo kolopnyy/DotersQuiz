@@ -78,7 +78,7 @@ namespace WebApplication2.Controllers
             string ans10 = group10;
             if (ans10 != "value1") { ans10 = "Ваша відповідь неправильна! Правильна відповідь 1\n "; } else { ans10 = "Ви відповіли правильно\n"; result++; }
             if (result < 5) { res = "Ви поганий гравець ,не грайте в Доту 2 ніколи!"; } else if (result >= 5 && result < 9) { res = "Ви гравець середнього рівня"; } else { res = "Про ігрок! Вітаємо!Вам дорога в кіберспорт"; }
-            string authData = $"Питання1: {ans1}   \nПитання2: {ans2}   \nПитання3: {ans3}  \nПитання4: {ans4} \nПитання5: {ans5} \nПитання6: {ans6} \nПитання7: {ans7} \nПитання8: {ans8} \nПитання9: {ans9} \nПитання10: {ans10} \nРезультат:Ви набрали  {result} бал(ів) \n{res}";
+            string authData = $"Питання1: {ans1}   \nПитання2: {ans2}   \nПитання3: {ans3}  \nПитання4: {ans4} \nПитання5: {ans5} \nПитання6: {ans6} \nПитання7: {ans7} \nПитання8: {ans8} \nПитання9: {ans9} \nПитання10: {ans10} \nРезультатеуфtea:Ви набрали  {result} бал(ів) \n{res}";
             return Content(authData);
         }
         public IActionResult About()

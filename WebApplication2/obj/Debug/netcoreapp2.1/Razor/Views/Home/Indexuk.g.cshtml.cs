@@ -67,7 +67,7 @@ using WebApplication2.Models;
             WriteLiteral("\r\n<!DOCTYPE HTML>\r\n\r\n\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(89, 85, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d79bdd60c6841c491521be9def66b82", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e5320bf27e743a4bcd9547bafa80ebe", async() => {
                 BeginContext(110, 57, true);
                 WriteLiteral("   \r\n    <meta charset=\"utf-8\">\r\n    <title>dz3</title>\r\n");
                 EndContext();
@@ -88,12 +88,12 @@ using WebApplication2.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(176, 4169, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fcbac67350c843b5ae6f36883bbcd190", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "410a88522b4d4ee58140694c1b975bae", async() => {
                 BeginContext(182, 79, true);
                 WriteLiteral("\r\n\r\n    <p style=\"font-size:100px ;text-align:center \">Тест на дотєра</p>\r\n    ");
                 EndContext();
                 BeginContext(261, 4073, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9e8d5afad62402f96e2cfe558015582", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "acd05af3dd774d72912ff057018c4018", async() => {
                     BeginContext(281, 4046, true);
                     WriteLiteral(@"
         <br />
